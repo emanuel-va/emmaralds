@@ -1,0 +1,16 @@
+/* fonts.css */
+
+@font-face { /* @font-face = used for define custom external fonts */
+    font-family: 'didot'; /* font-family = used for asign custom font name, but correct way is name font as original font name */
+    src: url("didot/didot.otf") format("opentype"); /* src = used for define font file path. format = used for set filetype, web browsers load faster when filetypes are defined */
+}
+@font-face {
+    font-family: 'didot';
+    src: url("didot/didot-bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'didot';
+    src: url("didot/didot-italic.otf") format("opentype");
+    font-style: italic;
+}
